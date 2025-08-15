@@ -3,3 +3,20 @@
   padding: 0px;
   box-sizing: border-box;
 }
+.navbar {
+  width: 80%;
+  border-radius: 50px;
+  position: fixed;
+  background-color: brown;
+}
+.nav-ul > li {
+  font-weight: 600;
+  opacity: 0.7;
+  margin-left: 1rem;
+  transition: all 150ms;
+}
+.nav-ul > li:hover {
+  opacity: 1;
+  text-decoration: underline 0.2rem;
+  transform: translateY(-0.2rem);
+}
